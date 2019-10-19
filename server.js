@@ -28,7 +28,7 @@ app.put('/api/v1/bootcamps/:id', (req, res) => {
 
 app.delete('/api/v1/bootcamps/:id', (req, res) => {
   res
-    .status(204)
+    .status(201)
     .json({ success: true, msg: `Delete bootcamp ${req.params.id}` });
 });
 
