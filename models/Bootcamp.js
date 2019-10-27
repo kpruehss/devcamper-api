@@ -3,6 +3,7 @@ const slugify = require('slugify');
 const dotenv = require('dotenv');
 const geocoder = require('../utils/geocoder');
 
+// ? Provide access to environment variables
 dotenv.config({ path: '../config/config.env' });
 
 const BootcampSchema = new mongoose.Schema({
